@@ -4,7 +4,11 @@
 
 Imagine you are building a shopping cart. Write some documentation on the data types that you would need to complete your shopping experience. How did you arrive at your choices?
 
-As a user, I can see a product page in a web shop (https://www.amazon.se/Sony-ILCE6000LB-CEC-Alpha-Systemkamera-24-3mp/dp/B00IE9XHE0?ref_=Oct_d_obs_d_20637947031&pd_rd_w=d6Jpm&content-id=amzn1.sym.1b1c6cd3-8d9d-449c-a65f-23ca8cc06576&pf_rd_p=1b1c6cd3-8d9d-449c-a65f-23ca8cc06576&pf_rd_r=0XV22WW74GBDMBMN3EB4&pd_rd_wg=YWaEF&pd_rd_r=95254225-603f-4230-b019-8d4f7147b31d&pd_rd_i=B00IE9XHE0) with following details and its data types:
+As a user, I can see a shopping cart page in a web shop for selling fruits with following details and its data types:
+- A user id: represents a String data type.
+- Shopping cart: represents Array (Object) data type - to demonstrate variety of products on web shop;
+- Multiple products on page(banana, orange, strawberry): each of these products represent an Object data type with their properties to show and own primitive data types - name of the product[String], product price and count of the product to be added in the cart[Numbers], button to add a product to the cart[String]);
+- Cart button (to see added products to the cart): represents an Object data type with following properties and their own primitive data types: Product name [String], Product quantity added [Numbers], Product count to be changed - add more or less items [Numbers], button to remove product from a cart [String], Is this product a gift [Boolean], Subtotal amount [Numbers], Close button [String], Order now button [String].
 
 
 
